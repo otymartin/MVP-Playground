@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283AB30C645C83911416FA01 /* Pods_MVP_PlaygroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBE0FF3CC93BF605BE5787F /* Pods_MVP_PlaygroundTests.framework */; };
 		A106A5791FB26DB40046B04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106A5781FB26DB40046B04A /* AppDelegate.swift */; };
 		A106A57B1FB26DB40046B04A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106A57A1FB26DB40046B04A /* ViewController.swift */; };
 		A106A57E1FB26DB40046B04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A106A57C1FB26DB40046B04A /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		A106A5831FB26DB40046B04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A106A5811FB26DB40046B04A /* LaunchScreen.storyboard */; };
 		A106A58E1FB26DB50046B04A /* MVP_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106A58D1FB26DB50046B04A /* MVP_PlaygroundTests.swift */; };
 		A106A5991FB26DB50046B04A /* MVP_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A106A5981FB26DB50046B04A /* MVP_PlaygroundUITests.swift */; };
+		AEF261318E57AE9437F41F9E /* Pods_MVP_Playground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FBAB48B9C883020F3C3084 /* Pods_MVP_Playground.framework */; };
+		E29AA1929FBD2E166EDC8F18 /* Pods_MVP_PlaygroundUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F02857372A1C711BFEA741 /* Pods_MVP_PlaygroundUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ADDEDE2F77C3D296A5F1A41 /* Pods-MVP PlaygroundUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP PlaygroundUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP PlaygroundUITests/Pods-MVP PlaygroundUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CADD5F9D44E80222422179F /* Pods-MVP Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Playground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Playground/Pods-MVP Playground.debug.xcconfig"; sourceTree = "<group>"; };
+		21F02857372A1C711BFEA741 /* Pods_MVP_PlaygroundUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_PlaygroundUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2468014DB22057B3FCA2CBC7 /* Pods-MVP PlaygroundUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP PlaygroundUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP PlaygroundUITests/Pods-MVP PlaygroundUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		37E7AAF83DED8302BF143615 /* Pods-MVP PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP PlaygroundTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP PlaygroundTests/Pods-MVP PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
+		62FBAB48B9C883020F3C3084 /* Pods_MVP_Playground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_Playground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6966E66E1FFFA93F175636C3 /* Pods-MVP PlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP PlaygroundTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVP PlaygroundTests/Pods-MVP PlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A106A5751FB26DB40046B04A /* MVP Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106A5781FB26DB40046B04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A106A57A1FB26DB40046B04A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		A106A5941FB26DB50046B04A /* MVP PlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP PlaygroundUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A106A5981FB26DB50046B04A /* MVP_PlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_PlaygroundUITests.swift; sourceTree = "<group>"; };
 		A106A59A1FB26DB50046B04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBE0FF3CC93BF605BE5787F /* Pods_MVP_PlaygroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVP_PlaygroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF42A967829BCA32A6559CB9 /* Pods-MVP Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVP Playground.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVP Playground/Pods-MVP Playground.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF261318E57AE9437F41F9E /* Pods_MVP_Playground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283AB30C645C83911416FA01 /* Pods_MVP_PlaygroundTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29AA1929FBD2E166EDC8F18 /* Pods_MVP_PlaygroundUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3494A68B8B6704D0D1F3A7C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62FBAB48B9C883020F3C3084 /* Pods_MVP_Playground.framework */,
+				DBBE0FF3CC93BF605BE5787F /* Pods_MVP_PlaygroundTests.framework */,
+				21F02857372A1C711BFEA741 /* Pods_MVP_PlaygroundUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		615B7F3F59070DEE36BB6351 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CADD5F9D44E80222422179F /* Pods-MVP Playground.debug.xcconfig */,
+				EF42A967829BCA32A6559CB9 /* Pods-MVP Playground.release.xcconfig */,
+				6966E66E1FFFA93F175636C3 /* Pods-MVP PlaygroundTests.debug.xcconfig */,
+				37E7AAF83DED8302BF143615 /* Pods-MVP PlaygroundTests.release.xcconfig */,
+				2468014DB22057B3FCA2CBC7 /* Pods-MVP PlaygroundUITests.debug.xcconfig */,
+				0ADDEDE2F77C3D296A5F1A41 /* Pods-MVP PlaygroundUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A106A56C1FB26DB40046B04A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A106A58C1FB26DB50046B04A /* MVP PlaygroundTests */,
 				A106A5971FB26DB50046B04A /* MVP PlaygroundUITests */,
 				A106A5761FB26DB40046B04A /* Products */,
+				615B7F3F59070DEE36BB6351 /* Pods */,
+				3494A68B8B6704D0D1F3A7C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A106A59D1FB26DB50046B04A /* Build configuration list for PBXNativeTarget "MVP Playground" */;
 			buildPhases = (
+				EA42CD1DA9635F4E65360185 /* [CP] Check Pods Manifest.lock */,
 				A106A5711FB26DB40046B04A /* Sources */,
 				A106A5721FB26DB40046B04A /* Frameworks */,
 				A106A5731FB26DB40046B04A /* Resources */,
+				78965337D94D0A24E870FA77 /* [CP] Embed Pods Frameworks */,
+				CCCEEF92A68741C8AF608BEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A106A5A01FB26DB50046B04A /* Build configuration list for PBXNativeTarget "MVP PlaygroundTests" */;
 			buildPhases = (
+				D89FBDD76BB5BD6EF2CC0DA4 /* [CP] Check Pods Manifest.lock */,
 				A106A5851FB26DB50046B04A /* Sources */,
 				A106A5861FB26DB50046B04A /* Frameworks */,
 				A106A5871FB26DB50046B04A /* Resources */,
+				E62AD29E3F10C5F675908909 /* [CP] Embed Pods Frameworks */,
+				AAB5D0D7DE3BC5C9EF5EC7F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A106A5A31FB26DB50046B04A /* Build configuration list for PBXNativeTarget "MVP PlaygroundUITests" */;
 			buildPhases = (
+				853C41237A954FACF7CA58D2 /* [CP] Check Pods Manifest.lock */,
 				A106A5901FB26DB50046B04A /* Sources */,
 				A106A5911FB26DB50046B04A /* Frameworks */,
 				A106A5921FB26DB50046B04A /* Resources */,
+				448E15D89FDF7FACACB87D75 /* [CP] Embed Pods Frameworks */,
+				77413BFB5DE132D75D6EAE99 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		448E15D89FDF7FACACB87D75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP PlaygroundUITests/Pods-MVP PlaygroundUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77413BFB5DE132D75D6EAE99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP PlaygroundUITests/Pods-MVP PlaygroundUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78965337D94D0A24E870FA77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP Playground/Pods-MVP Playground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		853C41237A954FACF7CA58D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVP PlaygroundUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB5D0D7DE3BC5C9EF5EC7F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP PlaygroundTests/Pods-MVP PlaygroundTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCEEF92A68741C8AF608BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP Playground/Pods-MVP Playground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D89FBDD76BB5BD6EF2CC0DA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVP PlaygroundTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62AD29E3F10C5F675908909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVP PlaygroundTests/Pods-MVP PlaygroundTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA42CD1DA9635F4E65360185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVP Playground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A106A5711FB26DB40046B04A /* Sources */ = {
@@ -424,6 +620,7 @@
 		};
 		A106A59E1FB26DB50046B04A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CADD5F9D44E80222422179F /* Pods-MVP Playground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +636,7 @@
 		};
 		A106A59F1FB26DB50046B04A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF42A967829BCA32A6559CB9 /* Pods-MVP Playground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +652,7 @@
 		};
 		A106A5A11FB26DB50046B04A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6966E66E1FFFA93F175636C3 /* Pods-MVP PlaygroundTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +670,7 @@
 		};
 		A106A5A21FB26DB50046B04A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E7AAF83DED8302BF143615 /* Pods-MVP PlaygroundTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +688,7 @@
 		};
 		A106A5A41FB26DB50046B04A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2468014DB22057B3FCA2CBC7 /* Pods-MVP PlaygroundUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +705,7 @@
 		};
 		A106A5A51FB26DB50046B04A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADDEDE2F77C3D296A5F1A41 /* Pods-MVP PlaygroundUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
