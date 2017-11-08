@@ -6,4 +6,11 @@
 //  Copyright © 2017 Flex Messaging Inc. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+protocol PokeListView {
+    func addPokemon(_ pokemon: Pokemon)
+    func getInitialPokemons()
+    func showLoadingIndicator()
+    func hideLoadingIndicator()
+}
